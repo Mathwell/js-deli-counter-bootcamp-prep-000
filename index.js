@@ -11,7 +11,7 @@ function takeANumber(katzDeliLine, newPerson){
      return("There is nobody waiting to be served!")
    }else{
      var person=katzDeliLine.shift()
-     var string='Currently serving ${person}.'
+     var string="Currently serving "+person+"."
      return(string)
    }
  }
