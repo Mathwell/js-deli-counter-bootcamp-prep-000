@@ -20,6 +20,10 @@ function takeANumber(katzDeliLine, newPerson){
    if (katzDeliLine.length===0){
      return("The line is currently empty.")
    }else{
-     return("The line is currently:")
+     var string=""
+     for(var i=0; i<katzDeliLine, i++){
+       string=string+", " i.toString +". " katzDeliLine[i]
+     }
+     return("The line is currently:"+ string)
    }
  }
