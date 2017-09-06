@@ -23,9 +23,9 @@ function takeANumber(katzDeliLine, newPerson){
      var string=""
      for(var i=0; i<katzDeliLine.length; i++){
        var n=i+1
-       if (n>1) {string=string+","}
-       string=string+" " "+ n.toString() +". " +katzDeliLine[i]
+       if (n>1) {string=string+", "}
+       string=string+ n.toString() +". " +katzDeliLine[i]
      }
-     return("The line is currently:"+ string)
+     return("The line is currently: "+ string)
    }
  }
